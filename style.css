@@ -398,6 +398,17 @@ hr {
   width: 100%;
 }
 
+.contactForm button {
+  padding: 12px;
+  font-family: Inter, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  width: 136px;
+}
+
 textarea {
   padding: 10px;
   background: #fbf8f7;
@@ -419,4 +430,15 @@ textarea {
   width: 30%;
   background: #0d151e;
   border-radius: 10px;
+}
+
+.btn:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: rgba(245, 88, 0, 1);
+}
+
+.btn:active {
+  background: #e05304;
+  color: white;
 }
