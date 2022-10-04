@@ -24,13 +24,12 @@ header {
 }
 
 .logo {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-
-  color: #ffffff;
+  color: #fff;
 }
 
 .Headline {
@@ -57,34 +56,31 @@ header {
 }
 
 .heading h1 {
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
   line-height: 114%;
-
   letter-spacing: 0.37px;
-
   color: #ff6b00;
 }
+
 .heading h2 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 133%;
-
   color: #fff5e1;
 }
 
 .heading p {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
-
-  color: #ffffff;
+  color: #fff;
 }
 
 .socialmedia {
@@ -114,15 +110,16 @@ header {
   align-items: center;
   gap: 24px;
 }
+
 .RecentworkHeading h1 {
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 130%;
-
   color: #1c1a19;
 }
+
 hr {
   width: 95%;
   border: 1px solid black;
@@ -132,12 +129,14 @@ hr {
   max-width: 684px;
   margin-bottom: 24px;
 }
+
 .recentworkdescription {
   display: flex;
   flex-direction: column;
   gap: 12px;
   padding-bottom: 24px;
 }
+
 .recentworkdescription h1 {
   font-family: "Crete Round", sans-serif;
   font-style: normal;
@@ -145,6 +144,7 @@ hr {
   font-size: 32px;
   line-height: 44px;
 }
+
 .recentworkdescription p {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -152,25 +152,24 @@ hr {
   font-size: 16px;
   line-height: 24px;
 }
+
 .btn {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px;
   gap: 10px;
-
   width: 124px;
   height: 48px;
-
   background: #ff6b00;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 141%;
-
-  color: #ffffff;
+  color: #fff;
 }
+
 .languages {
   display: flex;
   flex-direction: row;
@@ -179,15 +178,18 @@ hr {
   justify-content: flex-start;
   padding-left: 0;
 }
+
 .languages li {
   border: 1px solid #8993a4;
   box-sizing: border-box;
   padding: 10px 12px;
 }
+
 .workcards {
   display: grid;
   row-gap: 24px;
 }
+
 .cards {
   display: flex;
   flex-direction: column;
@@ -195,33 +197,34 @@ hr {
   background-repeat: no-repeat;
   background-size: 100%;
   padding-top: 84px;
-
   gap: 12px;
 }
+
 .cardDiscription {
   padding-left: 5%;
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
+
 .cards h2 {
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 138%;
-
-  color: #ffffff;
+  color: #fff;
 }
+
 .cards p {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
-
-  color: #ffffff;
+  color: #fff;
 }
+
 .cardlist {
   display: flex;
   flex-direction: row;
@@ -230,6 +233,7 @@ hr {
   padding-left: 0;
   list-style: none;
 }
+
 .cardlist li {
   padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
@@ -237,6 +241,7 @@ hr {
   box-sizing: border-box;
   color: white;
 }
+
 .cards button {
   width: 100%;
   padding-left: 0;
@@ -252,7 +257,6 @@ hr {
   padding-right: 5%;
   background-image: url("SVG/about-me-mobile.svg");
   background-position: 100% 100%;
-
   background-repeat: no-repeat;
 }
 
@@ -264,18 +268,17 @@ hr {
 }
 
 .aboutme h1 {
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
   line-height: 122%;
-
   letter-spacing: 0.37px;
-
   color: #ff6b00;
 }
+
 .aboutme p {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -284,26 +287,23 @@ hr {
   color: #f4f5f7;
   flex-wrap: wrap;
 }
+
 .aboutme button {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px;
   gap: 10px;
-
   width: 161px;
   height: 48px;
-
   background: #ff6b00;
-
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #fff;
 }
+
 .aboutme hr {
   margin-top: 180px;
-  width: 370px;
   border: 1px solid white;
   width: 95%;
 }
@@ -331,7 +331,6 @@ hr {
   font-weight: 700;
   font-size: 32px;
   line-height: 138%;
-
   color: #fff;
 }
 
@@ -340,28 +339,29 @@ hr {
   gap: 5px;
   padding-right: 11%;
 }
+
 #framework {
   gap: 20px;
 }
 
 .skillList {
   display: flex;
-
   flex-direction: column;
   align-items: center;
   list-style: none;
   padding: 0;
   gap: 5px;
 }
+
 .skillList li {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 194%;
-
   color: #fff;
 }
+
 .Contact {
   display: flex;
   flex-direction: column;
@@ -373,15 +373,14 @@ hr {
   padding-bottom: 121px;
   border-bottom: 1px solid black;
 }
+
 .Contact h1 {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 138%;
-
   text-align: center;
-
   color: #172b4d;
 }
 
@@ -392,11 +391,13 @@ hr {
   gap: 24px;
   width: 90%;
 }
+
 .contactForm input {
   border-bottom: 1px solid black;
   padding: 10px;
   width: 100%;
 }
+
 textarea {
   padding: 10px;
   background: #fbf8f7;
@@ -412,6 +413,7 @@ textarea {
   padding-top: 25px;
   padding-bottom: 10px;
 }
+
 .footer hr {
   border: 3px solid black;
   width: 30%;
