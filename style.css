@@ -455,6 +455,7 @@ textarea {
 #w6 #w6dt {
   display: none;
 }
+
 .cards .btndt {
   display: none;
 }
@@ -471,7 +472,7 @@ textarea {
   }
 
   .menuList li {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -485,7 +486,6 @@ textarea {
     font-weight: 600;
     font-size: 15px;
     line-height: 133%;
-
     color: #fff;
     text-decoration: none;
   }
@@ -509,7 +509,7 @@ textarea {
   }
 
   .heading h1 {
-    font-family: "Crete Round";
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -518,7 +518,7 @@ textarea {
   }
 
   .heading h2 {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -527,7 +527,7 @@ textarea {
   }
 
   .heading p {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -542,7 +542,7 @@ textarea {
   }
 
   .RecentworkHeading h1 {
-    font-family: "Crete Round";
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -559,30 +559,34 @@ textarea {
     display: flex;
     gap: 10px;
   }
+
   .recentworkdescription {
     width: 40%;
     gap: 24px;
   }
+
   .recentworkimg {
     width: 52%;
   }
+
   .recentworkdescription h1 {
-    font-family: "Crete Round";
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 130%;
-
     color: #091e42;
   }
+
   .recentworkdescription p {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
     color: #091e42;
   }
+
   .workcards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -590,12 +594,15 @@ textarea {
     row-gap: 37px;
     column-gap: 24px;
   }
+
   .aboutme {
     max-width: 566px;
   }
+
   .aboutme hr {
     width: 1156px;
   }
+
   .about {
     background-image: url("SVG/aboutmeBGDesktop.svg");
     background-repeat: no-repeat;
@@ -613,27 +620,26 @@ textarea {
 
   .Contact h1 {
     max-width: 455px;
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 130%;
     width: 100%;
     color: #262626;
+    text-align: left;
+    padding-bottom: 10%;
+    padding-left: 5%;
   }
+
   .footer .socialmedia {
     flex-direction: row;
   }
+
   #w1cardDiscription {
     display: none;
   }
 
-  /* #w1button {
-    display: none;
-  } */
-  #w1:hover {
-    border: 2px solid #ff5a08;
-  }
   #w1 {
     position: relative;
   }
@@ -642,14 +648,10 @@ textarea {
     position: absolute;
     z-index: 2;
     margin-top: 77%;
-  }
-  #w1:hover #w1button {
-    display: block;
-  }
-  #w1button {
     display: none;
   }
-  #w1button:hover {
+
+  #w1:hover #w1button {
     display: block;
   }
 
@@ -697,11 +699,5 @@ textarea {
 
   .cards .btn {
     display: none;
-  }
-  .Contact h1 {
-    width: 95%;
-    text-align: left;
-    padding-bottom: 10%;
-    padding-left: 5%;
   }
 }
