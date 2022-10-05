@@ -193,9 +193,10 @@ hr {
 .cards {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   background-image: url("SVG/cardBG.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 118%;
   padding-top: 84px;
   gap: 12px;
 }
@@ -441,4 +442,266 @@ textarea {
 .btn:active {
   background: #e05304;
   color: white;
+}
+
+.menuList {
+  display: none;
+}
+
+#w2 #w2dt,
+#w3 #w3dt,
+#w4 #w4dt,
+#w5 #w5dt,
+#w6 #w6dt {
+  display: none;
+}
+.cards .btndt {
+  display: none;
+}
+
+@media all and (min-width: 768px) {
+  .menuIcon {
+    display: none;
+  }
+
+  .menuList {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+  }
+
+  .menuList li {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 133%;
+    color: #fff;
+  }
+
+  .menuList a {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 133%;
+
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .Headline {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 81px;
+    padding-left: 31px;
+    padding-top: 191px;
+    background-image: url("SVG/BGheadlineDesktop.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 72%;
+    padding-bottom: 258px;
+  }
+
+  .socialmedia {
+    flex-direction: column;
+    padding-top: 5%;
+    gap: 18px;
+  }
+
+  .heading h1 {
+    font-family: "Crete Round";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 113%;
+    color: #f55800;
+  }
+
+  .heading h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 138%;
+    color: #fff;
+  }
+
+  .heading p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #f4f5f7;
+  }
+
+  .RecentworkHeading {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 5%;
+  }
+
+  .RecentworkHeading h1 {
+    font-family: "Crete Round";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 130%;
+    color: #091e42;
+    width: 57%;
+  }
+
+  .RecentworkHeading hr {
+    width: 140%;
+  }
+
+  .recentWork {
+    display: flex;
+    gap: 10px;
+  }
+  .recentworkdescription {
+    width: 40%;
+    gap: 24px;
+  }
+  .recentworkimg {
+    width: 52%;
+  }
+  .recentworkdescription h1 {
+    font-family: "Crete Round";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 130%;
+
+    color: #091e42;
+  }
+  .recentworkdescription p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #091e42;
+  }
+  .workcards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 435px);
+    row-gap: 37px;
+    column-gap: 24px;
+  }
+  .aboutme {
+    max-width: 566px;
+  }
+  .aboutme hr {
+    width: 1156px;
+  }
+  .about {
+    background-image: url("SVG/aboutmeBGDesktop.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 20%;
+  }
+
+  .skills {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .Contact {
+    flex-direction: row;
+  }
+
+  .Contact h1 {
+    max-width: 455px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    width: 100%;
+    color: #262626;
+  }
+  .footer .socialmedia {
+    flex-direction: row;
+  }
+  #w1cardDiscription {
+    display: none;
+  }
+
+  /* #w1button {
+    display: none;
+  } */
+  #w1:hover {
+    border: 2px solid #ff5a08;
+  }
+  #w1 {
+    position: relative;
+  }
+
+  #w1button {
+    position: absolute;
+    z-index: 2;
+    margin-top: 77%;
+  }
+  #w1:hover #w1button {
+    display: block;
+  }
+  #w1button {
+    display: none;
+  }
+  #w1button:hover {
+    display: block;
+  }
+
+  #w2,
+  #w5 {
+    /* display: flex;
+    flex-direction: column; */
+    background-image: url("SVG/bgw2.svg");
+    background-repeat: no-repeat;
+    padding-top: 46%;
+  }
+
+  #w4 {
+    /* display: flex;
+    flex-direction: column; */
+    background-image: url("SVG/w4bgdt.png");
+    background-repeat: no-repeat;
+    padding-top: 46%;
+  }
+
+  #w6,
+  #w3 {
+    /* display: flex;
+    flex-direction: column; */
+    background-image: url("SVG/w6bgdt.png");
+    background-repeat: no-repeat;
+    padding-top: 59%;
+  }
+
+  #w2 #w2mb,
+  #w3 #w3mb,
+  #w4 #w4mb,
+  #w5 #w5mb,
+  #w6 #w6mb {
+    display: none;
+  }
+
+  #w2 #w2dt,
+  #w3 #w3dt,
+  #w4 #w4dt,
+  #w5 #w5dt,
+  #w6 #w6dt {
+    display: inline-block;
+  }
+
+  .cards .btn {
+    display: none;
+  }
+  .Contact h1 {
+    width: 95%;
+    text-align: left;
+    padding-bottom: 10%;
+    padding-left: 5%;
+  }
 }
